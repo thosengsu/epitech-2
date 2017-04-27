@@ -1,0 +1,13 @@
+#test commentaire
+
+.chipsets:
+input i
+input i2
+output o
+
+4071   orGates
+
+.links:
+i:1    orGates:1
+i2:1   orGates:2
+orGates:3  o:1

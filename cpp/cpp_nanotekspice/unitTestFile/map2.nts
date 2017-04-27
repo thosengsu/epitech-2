@@ -1,0 +1,13 @@
+#Let's add some component
+
+.chipsets:
+input	i
+input	i2
+output	o
+
+4081	and
+
+.links:
+i:1	and:1
+i2:1	and:2
+and:3	o:1

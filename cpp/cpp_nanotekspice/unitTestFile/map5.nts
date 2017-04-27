@@ -1,0 +1,15 @@
+# commentaire
+
+.chipsets:
+input i
+input i2
+output o
+output o2
+
+4069 reverse
+
+.links:
+i:1 reverse:1
+i2:1 reverse:3
+reverse:2 o:1
+reverse:4 o2:1

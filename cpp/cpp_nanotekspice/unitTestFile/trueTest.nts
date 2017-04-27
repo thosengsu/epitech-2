@@ -1,0 +1,11 @@
+.chipsets:
+true t1
+false f1
+output o
+
+4011 a
+
+.links:
+t1:1 a:1
+f1:1 a:2
+a:3 o:1

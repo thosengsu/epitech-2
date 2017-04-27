@@ -1,0 +1,11 @@
+.chipsets:
+input i
+input i2
+output o
+
+4030 exOr
+
+.links:
+i:1 exOr:1
+i2:1 exOr:2
+exOr:3 o:1
